@@ -7,7 +7,7 @@ public class DataBaseConnection {
 	public static Connection connect() {
 	Connection con = null;
 	try {
-		con = DriverManager.getConnection("jdbc:mysql://localhost/films?user=root&password=Seif2354296");
+		con = DriverManager.getConnection("jdbc:mysql://localhost/films?user=root&password=********");
 		System.out.println("Success");
 		return con;
 	}catch(Exception E) {
